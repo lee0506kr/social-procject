@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import violin from 'assets/images/violin.svg';
+import violin from '../../assets/images/violin.svg';
 import PALETTE from 'constants/palette';
 import dayjs from 'dayjs';
 import { dateFormat, dateWithOnlyHour } from 'utils/datetime';

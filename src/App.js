@@ -6,20 +6,21 @@ import Join from './pages/Join';
 import Login from './pages/Login';
 import {SubmitButton} from './components/common/Button'
 import PALETTE from './constants/palette';
+import Header from './components/layout/Header';
 
 function App() {
   return (
     <>
-      추후 헤더 부분
+    <Header/>
+    <div className="App">
       <BrowserRouter>
-        <div className="App">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/join" element={<Join/>} />
             <Route path="/login" element={<Login/>} />
           </Routes>
-        </div>
       </BrowserRouter>
+    </div>
     </>
   );
 }

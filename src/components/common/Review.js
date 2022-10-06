@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import violin from 'assets/images/violin.svg';
+import violin from '../../assets/images/violin.svg';
 import { BsStarFill, BsStarHalf } from 'react-icons/bs';
 import { dateFormat } from 'utils/datetime';
 import dayjs from 'dayjs';
