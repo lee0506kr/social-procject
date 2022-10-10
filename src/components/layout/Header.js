@@ -134,7 +134,6 @@ const SearchInput = styled.input`
 const Header = () => {
     return (
         <TopWrapper>
-          {/* 모바일 상단바 표현(임시) */}
           <div
             style={{
               width: '100%',
