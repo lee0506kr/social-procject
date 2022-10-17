@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+1. social-project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. 기능 
+   : 카카오톡 로그인 구현 및 네이버 영화 조회 및 리스트 구현 
+     거의 Rest Api 이해 및 함수형을 이해 하기 위한 프로젝트 입니다. 
 
-## Available Scripts
+3. 구조 
+    src 
+    assets 
+      ㄴ font : 글자 font
+      ㄴ images : 이미지 svg
+    components
+      ㄴ common : 공통 components 추후 필요 한 것이 있다면 추가 예정 
+                ex) Button, input 등 
+      ㄴ layout : 구성 요소 즉, Login 안에 있는 Form Components 구현 하는 곳 
+      ㄴ constants : 기타 상수 요소 css 같은 것들 
+    customHooks 
+      ㄴ hook들 cutsom 한곳?
+      ㄴ 해당 건에 대하여서는 직접 설명을 들어야 함
+    pages 
+      ㄴ 페이지 구현 즉 Home, Login, Join 페이지들 만드는 곳 
+        이 곳에 대하여서 components 안에 있는 layout 요소들을 참조 하는 것입니다. 
+      ㄴ style 
+        pages 들마다 style 위 건에 대하여서는 밖에 있는 style로 뺄 예정입니다. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    style 
+       ㄴ csss 

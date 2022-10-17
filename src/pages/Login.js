@@ -73,6 +73,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // 예제
   const fetchUsers = async () => {
     
     try {
@@ -92,6 +93,14 @@ const Login = () => {
       setLoading(false);
   };
 
+  /* 
+    useEffect -> componentDidMount, componentDidUpdate
+    와 비슷한 개념 
+    , [] 빈값에 아무 것도 없으면 바로 호출?
+    , [number] state값이 지정 되어 있으면 number 라는 state값이 변동이 
+    있다면, 그때에 호출 하겠다 이러한 개념 입니다.
+  */
+
   useEffect(() => {
     fetchUsers();
   }, []);
@@ -108,7 +117,15 @@ const Login = () => {
         <LoginForm />
         <SocialContainer color={PALETTE.GRAY[0]}>
           <span>OR</span>
-          <SocialButton size="lg" color={PALETTE.WHITE[0]}>
+          <SocialButton size="lg" color={PALETTE.WHITE[0]} onClick={(e)=>{
+            
+            alert('카카오톡')
+          
+          
+          
+          
+          
+          }}>
             <img src={googleIcon} alt={googleIcon}/> Login with KAKAO
           </SocialButton>
           <p>
